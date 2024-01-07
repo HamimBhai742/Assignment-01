@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+/* Header Section */
+.Banner-Container {
+    background-image: url(../B9A1-New-Year-New-Mission/resources/Banner\ Image.png);
+    width: 1320px;
+    height: 600px;
+    background-repeat: no-repeat;
+    border-radius: 16px;
+
+}
+
+.Banner-Section {
+    padding: 50px 140px 0 140px;
+
+}
+
+.Banner-sub-titel {
+    color: #fff;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-size: 72px;
+    font-weight: 900;
+    max-width: 632px;
+    margin-top: 20px;
+}
+
+.Banner-titel {
+    color: #fff;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.Banner-text {
+    padding: 157px 331px 0 330px;
+    border-radius: 16px;
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+}
+
+/* Main section */
+.section1-text {
+    text-align: center;
+}
+
+.section1-text h2 {
+    color: #f00;
+    font-family: 'Inter', sans-serif;
+    font-size: 88px;
+    font-weight: 700;
+}
+
+.section1-text p {
+    color: #f00;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+.section1-text h3 {
+    color: #070211;
+    font-family: 'Inter', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+.section1 {
+    margin-top: 120px;
+}
+
+.section1-img {
+    margin-top: 30px;
+}
+
+.section2-container {
+    width: 1320px;
+    height: 600px;
+    background-image: url('../B9A1-New-Year-New-Mission/resources/Vectorrr.png');
+    display: flex;
+    background-repeat: no-repeat;
+    justify-content: space-between;
+   
+}
+
+.section2 {
+    padding: 80px 140px 0 140px;
+
+}
+
+.section2-text h1 {
+    color: #fff;
+    font-family: 'Merriweather', serif;
+    font-size: 64px;
+    font-weight: 900;
+    letter-spacing: 7px;
+    max-width: 642px;
+}
+
+.section2-text p {
+    max-width: 696px;
+    color: rgba(255, 255, 255, 0.80);
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+.section2-text h3 {
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+.section2-text {
+    background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+    padding: 130px;
+    border-radius: 16px;
+}
+
+.section2-img {
+    margin-top: 60px;
+    margin-right: 120px;
+
+}
