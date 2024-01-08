@@ -15,8 +15,7 @@
 }
 
 .Banner-Section {
-    padding: 50px 140px 0 140px;
-
+    margin: 50px 140px;
 }
 
 .Banner-sub-titel {
@@ -39,7 +38,7 @@
 
 .Banner-text {
     padding: 157px 331px 0 330px;
-    border-radius: 16px;
+    border-radius: 12px;
     background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
 }
 
@@ -91,7 +90,7 @@
 }
 
 .section2 {
-    padding: 120px 140px 0 140px;
+    margin: 120px 140px 0 140px;
 
 }
 
@@ -119,7 +118,7 @@
     font-size: 20px;
     font-weight: 700;
     margin-top: 50px;
-    margin-left: 20px;
+    margin-left: 40px;
 }
 
 .section2-text {
@@ -139,7 +138,7 @@
     font-family: Inter;
     font-size: 32px;
     font-weight: 600;
-    line-height: 50px;
+    line-height: 60px;
 }
 
 .section3-text span {
@@ -155,13 +154,13 @@
 }
 
 .section3 {
-    padding: 80px 140px 0 140px;
+    margin: 80px 140px 0 140px;
 
 }
 
 .section3-text button {
     background: #f00;
-    ;
+     cursor: pointer;
     color: #FFF;
     padding: 0 auto;
     font-family: Inter;
@@ -178,7 +177,7 @@
 }
 
 .section4 {
-    padding: 100px 140px 0 140px;
+    margin: 100px 140px 0 140px;
 
 }
 
@@ -196,7 +195,7 @@
     background: url('../B9A1-New-Year-New-Mission/resources/Ellipse\ 1.png');
     background-repeat: no-repeat;
     background-position: center;
-    margin-left: -120px;
+    margin-left: -100px;
 
 }
 
@@ -210,7 +209,7 @@
     font-size: 24px;
     font-weight: 500;
     color: #f00;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .section4-text h2 {
@@ -218,21 +217,22 @@
     font-family: Merriweather;
     font-size: 48px;
     font-weight: 900;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
 }
 
 .section4-text p {
     color: rgba(7, 2, 17, 0.60);
     font-family: Inter;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 400;
     max-width: 385px;
     line-height: 25px;
+    margin-top: 0px;
 }
 
 .section4-text-ls {
-    margin-right: -590px;
-    gap: 200px;
+    margin-right: -400px;
+    margin-top: 80px;
     margin-left: 150px;
 }
 
@@ -241,20 +241,24 @@
     font-family: Inter;
     font-size: 48px;
     font-weight: 700;
-    margin-bottom: -30px;
+   margin-bottom: 30px;
+
 }
 
 .section4-text-ls p {
-    /* max-width: 265px; */
+    
     color: rgba(7, 2, 17, 0.60);
     font-family: Inter;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 400;
-    margin-bottom: 60px;
+  
+   margin-top: -10px;
 }
-
+.section4-text-ls img{
+    margin-top: 40px;
+}
 .section5 {
-    padding: 140px 140px 0 140px;
+    margin: 140px 140px 0 140px;
 }
 
 .section5-text h3 {
@@ -278,10 +282,10 @@
 }
 
 .section5-text p {
-    max-width: 650px;
+
     color: rgba(7, 2, 17, 0.60);
     font-family: Inter;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 500;
     line-height: 26px;
 }
@@ -289,6 +293,7 @@
 .section5-text {
     text-align: center;
     margin-left: 300px;
+    max-width: 1320px;
 }
 
 .section5-img {
@@ -330,7 +335,7 @@
 }
 
 .section6 {
-    padding: 140px 140px 0 140px;
+    margin: 140px 140px 0 140px;
 }
 
 .section6-text h3 {
@@ -354,7 +359,7 @@
     max-width: 850px;
     color: rgba(7, 2, 17, 0.60);
     font-family: Inter;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 400;
     line-height: 25px;
 }
@@ -377,9 +382,10 @@
 }
 
 .section6-img-titel img:hover {
-    border-radius: 12px;
+
     background-color: #F00;
     cursor: pointer;
+    transition: all 1s;
 }
 
 .section6-recheak {
@@ -388,7 +394,7 @@
 }
 
 .section7 {
-    padding: 100px 140px 0 140px;
+    margin: 100px 140px 0 140px;
 }
 
 .section7-container {
@@ -405,7 +411,7 @@
     font-size: 48px;
     font-weight: 900;
     font-family: Merriweather;
-    margin-bottom: 20px;
+    
 }
 
 .section7-text p {
@@ -413,12 +419,12 @@
     color: rgba(7, 2, 17, 0.60);
     margin-bottom: 100px;
     font-family: Inter;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 400;
     line-height: 25px;
     position: relative;
     left: 19%;
-    margin-bottom: 80px;
+    margin-top: 30px;
 }
 
 .section7-text input {
@@ -430,8 +436,9 @@
     color: rgba(7, 2, 17, 0.30);
     text-align: center;
     font-family: Inter;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 400;
+    
 }
 
 .section7-text button {
@@ -446,12 +453,17 @@
     font-family: Inter;
     font-size: 20px;
     font-weight: 600;
+    
 }
 
 .section7-text {
     text-align: center;
 }
-
+.section7-text button:hover{
+    cursor: pointer;
+    background-color: rgb(190, 190, 190);
+     transition: all 2s;
+}
 .section7-img {
     margin-left: 560px;
     margin-bottom: 30px;
@@ -463,15 +475,15 @@
 
 .footer-section {
     margin-top: 100px;
-    width: 1580px;
-    height: 560px;
+    width: 1620px;
+    height: 580px;
     background: #070211;
 
 }
 
 .footer-section-container {
 
-    padding: 80px 140px 0 140px;
+    padding: 80px 140px;
 }
 
 .footer-ls-icon {
@@ -523,7 +535,12 @@
 }
 
 .footer-icon {
-    margin: 30px 510px;
+    padding: 30px 500px;
+
+}
+
+.footer-icon img {
+    margin-left: 10px;
 }
 
 .footer-ls {
