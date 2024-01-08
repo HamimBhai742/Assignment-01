@@ -10,7 +10,7 @@
     width: 1320px;
     height: 600px;
     background-repeat: no-repeat;
-    border-radius: 16px;
+    border-radius: 12px;
 
 }
 
@@ -46,6 +46,7 @@
 /* Main section */
 .section1-text {
     text-align: center;
+    margin-left: 250px;
 }
 
 .section1-text h2 {
@@ -76,7 +77,7 @@
 }
 
 .section1-img {
-    margin-top: 30px;
+    margin-top: 80px;
 }
 
 .section2-container {
@@ -90,7 +91,7 @@
 }
 
 .section2 {
-    padding: 80px 140px 0 140px;
+    padding: 120px 140px 0 140px;
 
 }
 
@@ -178,6 +179,7 @@
 
 .section4 {
     padding: 100px 140px 0 140px;
+
 }
 
 .section4-container {
@@ -191,11 +193,15 @@
     height: 400px;
     border-radius: 400px;
     border: 12px solid #f00;
-    align-items: center;
     background: url('../B9A1-New-Year-New-Mission/resources/Ellipse\ 1.png');
     background-repeat: no-repeat;
     background-position: center;
-    margin: 0 120px;
+    margin-left: -120px;
+
+}
+
+.section4-text {
+    margin-right: 200px;
 }
 
 .section4-text h3 {
@@ -224,25 +230,31 @@
     line-height: 25px;
 }
 
+.section4-text-ls {
+    margin-right: -590px;
+    gap: 200px;
+    margin-left: 150px;
+}
+
 .section4-text-ls h2 {
     color: #f00;
     font-family: Inter;
     font-size: 48px;
     font-weight: 700;
-    margin-bottom: 20px;
+    margin-bottom: -30px;
 }
 
 .section4-text-ls p {
-    max-width: 265px;
+    /* max-width: 265px; */
     color: rgba(7, 2, 17, 0.60);
     font-family: Inter;
     font-size: 20px;
     font-weight: 400;
-    margin-bottom: 50px;
+    margin-bottom: 60px;
 }
 
 .section5 {
-    padding: 100px 140px 0 140px;
+    padding: 140px 140px 0 140px;
 }
 
 .section5-text h3 {
@@ -272,11 +284,12 @@
     font-size: 20px;
     font-weight: 500;
     line-height: 26px;
-    text-align: center;
-    position: relative;
-    left: 25%;
 }
 
+.section5-text {
+    text-align: center;
+    margin-left: 300px;
+}
 
 .section5-img {
     display: flex;
@@ -292,27 +305,34 @@
     width: 100%;
     background-repeat: no-repeat;
     position: relative;
-    left: 70%;
+    left: 182.5%;
     margin-left: 16px;
+    margin-top: -45px;
 }
 
 .section5-img3 {
     width: 100%;
     position: relative;
-    right: 100%;
+    right: -77%;
 
+}
+
+.section5-img1-titel img {
+    margin-bottom: -45px;
 }
 
 .section5-backround-img {
     background: url(../B9A1-New-Year-New-Mission/resources/Rectangle\ 2.png);
     width: 1320px;
     height: 210px;
-    margin-top: -145px;
+    margin-top: -123px;
     border-radius: 12px 0 12px 12px;
 }
-.section6{
-    padding: 100px 140px 0 140px;
+
+.section6 {
+    padding: 140px 140px 0 140px;
 }
+
 .section6-text h3 {
     color: #F00;
     font-family: Inter;
@@ -327,7 +347,7 @@
     font-size: 48px;
     font-weight: 900;
     text-transform: capitalize;
-    margin-bottom: 30px;
+    margin-bottom: -40px;
 }
 
 .section6-text p {
@@ -338,58 +358,83 @@
     font-weight: 400;
     line-height: 25px;
 }
-.section6-img{
-     
-     margin-top: 50px;
+
+.section6-img-titel {
+    margin-top: 50px;
 }
-.section6-img img:hover{
-    margin-left: 5px;
-    margin-bottom: 10px;
+
+.section6-img-titel img {
+    width: 32%;
+}
+
+.section6-img {
+    margin-left: 15px;
+    margin-top: 20px;
+}
+
+.section6-img1 {
+    margin-top: 20px;
+}
+
+.section6-img-titel img:hover {
+    border-radius: 12px;
     background-color: #F00;
+    cursor: pointer;
 }
-.section7{
+
+.section6-recheak {
+    position: relative;
+    left: 11.5%;
+}
+
+.section7 {
     padding: 100px 140px 0 140px;
 }
-.section7-container{
+
+.section7-container {
     width: 1320px;
     height: 616px;
     border-radius: 12px;
-    background: rgba(255, 0, 0,0.05);
-    
+    background: rgba(255, 0, 0, 0.05);
+
 }
-.section7-text h2{
+
+.section7-text h2 {
     color: #070211;
-   
+
     font-size: 48px;
     font-weight: 900;
     font-family: Merriweather;
     margin-bottom: 20px;
 }
-.section7-text p{
+
+.section7-text p {
     max-width: 850px;
-    color:rgba(7, 2, 17, 0.60);
+    color: rgba(7, 2, 17, 0.60);
     margin-bottom: 100px;
     font-family: Inter;
     font-size: 20px;
     font-weight: 400;
     line-height: 25px;
-      position: relative;
-    left: 19%; 
-    margin-bottom: 100px;
+    position: relative;
+    left: 19%;
+    margin-bottom: 80px;
 }
-.section7-text input{
-    width: 620px; 
+
+.section7-text input {
+    width: 620px;
     height: 62px;
     border-radius: 46px;
     background: #fff;
     border: none;
     color: rgba(7, 2, 17, 0.30);
-    text-align:center;
+    text-align: center;
     font-family: Inter;
     font-size: 20px;
     font-weight: 400;
 }
-.section7-text button{
+
+.section7-text button {
     width: 200px;
     height: 62px;
     border-radius: 0 46px 46px 0;
@@ -402,36 +447,61 @@
     font-size: 20px;
     font-weight: 600;
 }
-.section7-text{
+
+.section7-text {
     text-align: center;
 }
-.section7-img{
-   margin-left: 560px;
-   margin-bottom: 30px;
+
+.section7-img {
+    margin-left: 560px;
+    margin-bottom: 30px;
 }
-.section7-tite{
+
+.section7-tite {
     padding-top: 70px;
 }
-.footer-section{
+
+.footer-section {
     margin-top: 100px;
     width: 1580px;
     height: 560px;
     background: #070211;
+
 }
-.footer-section-container{
-   
+
+.footer-section-container {
+
     padding: 80px 140px 0 140px;
 }
-.footer-sec-address p{
+
+.footer-ls-icon {
+    display: flex;
+}
+
+.number {
+    margin-top: -15px;
+}
+
+.footer-ls-icon1 {
+    margin-top: -80px;
+}
+
+.footer-ls-icon2 {
+    margin-bottom: -15px;
+}
+
+.footer-sec-address p {
     color: #fff;
     font-family: Inter;
     font-size: 18px;
     font-weight: 500;
     line-height: 42px;
     display: inline;
-    
+
 }
-.footer-sec-contact p,.footer-ancor{
+
+.footer-sec-contact p,
+.footer-ancor {
     color: #fff;
     font-family: Inter;
     font-size: 18px;
@@ -442,23 +512,28 @@
     margin-top: 20px;
     margin-left: 10px;
     line-height: 35px;
-   align-items: center;
+    align-items: center;
 
 }
-.footer-section-text{
+
+.footer-section-text {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.footer-icon{
+
+.footer-icon {
     margin: 30px 510px;
 }
-.footer-ls{
+
+.footer-ls {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.footer-ls small,p{
+
+.footer-ls small,
+p {
     color: #fff;
     font-family: Inter;
     font-size: 18px;
