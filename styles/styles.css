@@ -4,19 +4,16 @@
 
 }
 
-/* Header Section */
 .Banner-Container {
     background-image: url(../B9A1-New-Year-New-Mission/resources/Banner\ Image.png);
     width: 1320px;
     height: 600px;
     background-repeat: no-repeat;
     border-radius: 12px;
-
+    margin: 50px auto;
 }
 
-.Banner-Section {
-    margin: 50px 140px;
-}
+.Banner-Section {}
 
 .Banner-sub-titel {
     color: #fff;
@@ -42,10 +39,10 @@
     background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
 }
 
-/* Main section */
+/* Section-01 */
 .section1-text {
     text-align: center;
-    margin-left: 250px;
+    margin: 50px auto;
 }
 
 .section1-text h2 {
@@ -60,7 +57,7 @@
     font-family: 'Inter', sans-serif;
     font-size: 24px;
     font-weight: 500;
-    margin-top: 20px;
+
 }
 
 .section1-text h3 {
@@ -71,14 +68,13 @@
     margin-top: 10px;
 }
 
-.section1 {
-    margin-top: 120px;
-}
-
 .section1-img {
     margin-top: 80px;
 }
 
+/* Section-01 End */
+
+/* Section-02 */
 .section2-container {
     width: 1320px;
     height: 600px;
@@ -89,8 +85,8 @@
 
 }
 
-.section2 {
-    margin: 120px 140px 0 140px;
+.section2-container {
+    margin: 50px auto;
 
 }
 
@@ -133,6 +129,8 @@
 
 }
 
+/* section-02 End */
+/* section-03 */
 .section3-text h3 {
     text-align: center;
     font-family: Inter;
@@ -153,14 +151,14 @@
     border-radius: 12px;
 }
 
-.section3 {
-    margin: 80px 140px 0 140px;
+.section3-container {
+    margin: 50px auto;
 
 }
 
 .section3-text button {
     background: #f00;
-     cursor: pointer;
+    cursor: pointer;
     color: #FFF;
     padding: 0 auto;
     font-family: Inter;
@@ -176,15 +174,15 @@
     margin-top: 20px;
 }
 
-.section4 {
-    margin: 100px 140px 0 140px;
-
-}
+/* section-03 End */
+/* section-04 */
 
 .section4-container {
+    width: 1320px;
     display: flex;
     align-items: center;
-
+    margin: 50px auto;
+    justify-content: space-around;
 }
 
 .section4-mid-img {
@@ -195,13 +193,11 @@
     background: url('../B9A1-New-Year-New-Mission/resources/Ellipse\ 1.png');
     background-repeat: no-repeat;
     background-position: center;
-    margin-left: -100px;
+
 
 }
 
-.section4-text {
-    margin-right: 200px;
-}
+
 
 .section4-text h3 {
 
@@ -209,7 +205,7 @@
     font-size: 24px;
     font-weight: 500;
     color: #f00;
-    margin-bottom: 10px;
+
 }
 
 .section4-text h2 {
@@ -217,7 +213,7 @@
     font-family: Merriweather;
     font-size: 48px;
     font-weight: 900;
-    margin-bottom: 25px;
+
 }
 
 .section4-text p {
@@ -227,38 +223,39 @@
     font-weight: 400;
     max-width: 385px;
     line-height: 25px;
-    margin-top: 0px;
+
 }
 
-.section4-text-ls {
-    margin-right: -400px;
-    margin-top: 80px;
-    margin-left: 150px;
-}
+
 
 .section4-text-ls h2 {
     color: #f00;
     font-family: Inter;
     font-size: 48px;
     font-weight: 700;
-   margin-bottom: 30px;
+    margin-bottom: 30px;
 
 }
 
 .section4-text-ls p {
-    
+
     color: rgba(7, 2, 17, 0.60);
     font-family: Inter;
     font-size: 18px;
     font-weight: 400;
-  
-   margin-top: -10px;
+
+
 }
-.section4-text-ls img{
-    margin-top: 40px;
+
+.section4-text-ls img {
+    margin-top: 40px
 }
-.section5 {
-    margin: 140px 140px 0 140px;
+
+/* section-04 End */
+/* section-05 */
+.section5-container {
+    margin: 70px auto;
+    width: 1320px;
 }
 
 .section5-text h3 {
@@ -270,7 +267,7 @@
 }
 
 .section5-text h1 {
-    text-align: center;
+
     font-family: Merriweather;
     font-size: 72px;
     font-weight: 900;
@@ -292,7 +289,7 @@
 
 .section5-text {
     text-align: center;
-    margin-left: 300px;
+    /* margin-left: 300px; */
     max-width: 1320px;
 }
 
@@ -304,38 +301,41 @@
 .section5-img1 {
     width: 100%;
     margin-top: 100px;
+
 }
 
 .section5-img2 {
     width: 100%;
     background-repeat: no-repeat;
     position: relative;
-    left: 182.5%;
-    margin-left: 16px;
-    margin-top: -45px;
+    left: 71.7%;
+
 }
 
 .section5-img3 {
     width: 100%;
     position: relative;
-    right: -77%;
+    right: 90%;
 
 }
 
 .section5-img1-titel img {
-    margin-bottom: -45px;
+    margin-bottom: -50px;
 }
 
 .section5-backround-img {
     background: url(../B9A1-New-Year-New-Mission/resources/Rectangle\ 2.png);
     width: 1320px;
     height: 210px;
-    margin-top: -123px;
+    margin-top: -128.5px;
     border-radius: 12px 0 12px 12px;
 }
 
-.section6 {
-    margin: 140px 140px 0 140px;
+/* section-05 End */
+/* section6 */
+.section6-container {
+    margin: 50px auto;
+    width: 1320px;
 }
 
 .section6-text h3 {
@@ -343,7 +343,7 @@
     font-family: Inter;
     font-size: 24px;
     font-weight: 500;
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
 }
 
 .section6-text h2 {
@@ -352,7 +352,7 @@
     font-size: 48px;
     font-weight: 900;
     text-transform: capitalize;
-    margin-bottom: -40px;
+    /* margin-bottom: -40px; */
 }
 
 .section6-text p {
@@ -365,7 +365,8 @@
 }
 
 .section6-img-titel {
-    margin-top: 50px;
+    width: 1320px;
+    margin: 50px auto;
 }
 
 .section6-img-titel img {
@@ -375,6 +376,7 @@
 .section6-img {
     margin-left: 15px;
     margin-top: 20px;
+
 }
 
 .section6-img1 {
@@ -388,13 +390,10 @@
     transition: all 1s;
 }
 
-.section6-recheak {
-    position: relative;
-    left: 11.5%;
-}
-
-.section7 {
-    margin: 100px 140px 0 140px;
+/* section-06 End */
+/* section-07 */
+.section7-container {
+    margin: 100px auto;
 }
 
 .section7-container {
@@ -407,11 +406,10 @@
 
 .section7-text h2 {
     color: #070211;
-
     font-size: 48px;
     font-weight: 900;
     font-family: Merriweather;
-    
+
 }
 
 .section7-text p {
@@ -438,7 +436,7 @@
     font-family: Inter;
     font-size: 18px;
     font-weight: 400;
-    
+
 }
 
 .section7-text button {
@@ -453,17 +451,19 @@
     font-family: Inter;
     font-size: 20px;
     font-weight: 600;
-    
+
 }
 
 .section7-text {
     text-align: center;
 }
-.section7-text button:hover{
+
+.section7-text button:hover {
     cursor: pointer;
     background-color: rgb(190, 190, 190);
-     transition: all 2s;
+    transition: all 2s;
 }
+
 .section7-img {
     margin-left: 560px;
     margin-bottom: 30px;
@@ -473,12 +473,15 @@
     padding-top: 70px;
 }
 
-.footer-section {
-    margin-top: 100px;
-    width: 1620px;
-    height: 580px;
-    background: #070211;
+/* Main section End */
+/* Footer-section */
 
+
+.footer-container {
+    width: 1600px;
+    margin: 120px auto 0 auto;
+    height: 600px;
+    background: #070211;
 }
 
 .footer-section-container {
